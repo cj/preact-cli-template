@@ -1,4 +1,20 @@
-node_modules
-.DS_Store
-*.lock
+# ignore these files/folders
+.*
 *.log
+*.lock
+node_modules
+/coverage
+/dist
+/build
+/example
+
+# allow these files/folders
+!.gitignore
+!.nvmrc
+!.firebaserc*
+!.stylelintrc*
+!.eslintrc*
+!.eslintignore
+!.postcssrc
+!.editorconfig
+!.babelrc
